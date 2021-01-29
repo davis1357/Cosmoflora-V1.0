@@ -41,3 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Trunk
+    uniqueID: 1880483647
+    locked: 0
+  - name: Leaves
+    uniqueID: 3122181541
+    locked: 0
