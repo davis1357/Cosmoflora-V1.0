@@ -9,6 +9,7 @@ public class SceneManagement : MonoBehaviour
     public void BackToSpace()
     {
         SceneManager.LoadScene(0);
+        FindObjectOfType<Player>().enabled = true;
     }
 
     public void IntoPlanet()

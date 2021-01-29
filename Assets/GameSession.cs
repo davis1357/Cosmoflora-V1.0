@@ -7,6 +7,8 @@ public class GameSession : MonoBehaviour
 {
     Player player;
     Vector3 playerPosition;
+    List<Transform> planetList = new List<Transform>();
+    [SerializeField] GameObject planets;
 
     private void Awake()
     {
@@ -24,6 +26,14 @@ public class GameSession : MonoBehaviour
         else
         {
             DontDestroyOnLoad(gameObject);
+        }
+    }
+
+    private void Start()
+    {
+        foreach (Transform child in planets.transform)
+        {
+            planetList.Add(child.transform);
         }
     }
 }

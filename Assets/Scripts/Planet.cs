@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PlanetZoom : MonoBehaviour
+public class Planet : MonoBehaviour
 {
     float zoomIn = 1f;
     float zoomTime = 2f;
@@ -24,7 +24,10 @@ public class PlanetZoom : MonoBehaviour
     IEnumerator WaitAndLoad()
     {
         yield return new WaitForSeconds(waitTime);
-        FindObjectOfType<Player>().gameObject.transform.position = new Vector3(transform.position.x + 1f, transform.position.y + 1f, transform.position.z);
+        FindObjectOfType<Player>().gameObject.transform.position = new Vector3(
+            transform.position.x + 1f,
+            transform.position.y + 1f,
+            transform.position.z);
         FindObjectOfType<SceneManagement>().IntoPlanet();
     }
 }

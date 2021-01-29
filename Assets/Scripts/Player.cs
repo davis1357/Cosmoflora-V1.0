@@ -14,18 +14,17 @@ public class Player : MonoBehaviour
     private void Awake()
     {
         SetUpSingleton();
-        enabled = true;
     }
 
-    private void Start()
+    void Start()
     {
-        transform.position = new Vector3(transform.position.x + 0.5f, transform.position.y + 0.5f, transform.position.z);
+        enabled = true;
     }
 
     private void SetUpSingleton()
     {
         int numOfGameSessions = FindObjectsOfType<Player>().Length;
-        if (numOfGameSessions > 1)
+        if (numOfGameSessions > 1 || SceneManager.GetActiveScene().name != "Space Screen")
         {
             Destroy(gameObject);
         }
@@ -38,8 +37,15 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Move();
-        CameraTrack();
+        if(SceneManager.GetActiveScene().name=="Space Screen")
+        {
+            Move();
+            CameraTrack();
+        }
+        if(SceneManager.GetActiveScene().name=="Planet")
+        {
+          //  transform.position = transform.InverseTransformPoint(new Vector2(0.5f, 0.5f));
+        }
     }
 
     private void Move()
