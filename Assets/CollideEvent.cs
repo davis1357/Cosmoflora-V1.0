@@ -15,6 +15,13 @@ public class CollideEvent : MonoBehaviour
     {
         if (trigger)
         {
+            var coreCounts = FindObjectsOfType<Core>();
+            var atmoCounts = FindObjectsOfType<Atmosphere>();
+            for (int i = 0; i < coreCounts.Length; i++)
+            {
+                StartCoroutine(coreCounts[i].FadeOut());
+                StartCoroutine(atmoCounts[i].FadeOut());
+            }
             float xTarget = Camera.main.ViewportToWorldPoint(new Vector3(0, 0, 0)).x + padding;
             float yTarget = Camera.main.ViewportToWorldPoint(new Vector3(0, 1, 0)).y - padding;
             Vector3 destination = new Vector3(xTarget, yTarget, 0);

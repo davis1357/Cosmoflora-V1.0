@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -18,4 +19,6 @@ public class Planet : MonoBehaviour
         GetComponentInChildren<Atmosphere>().SetAtmosphere(planetConfig.GetAtmosphere());
         GetComponentInChildren<Core>().SetCore(planetConfig.GetTerrain());
     }
+
+
 }
