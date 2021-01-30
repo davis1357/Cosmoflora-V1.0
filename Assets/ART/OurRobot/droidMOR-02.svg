@@ -1,0 +1,67 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 639 397">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-5, .cls-6 {
+        fill: #e6e6e6;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-5, .cls-6, .cls-7 {
+        stroke: #e6e6e6;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1 {
+        stroke-width: 0.537px;
+      }
+
+      .cls-2 {
+        stroke-width: 0.672px;
+      }
+
+      .cls-3, .cls-7 {
+        fill: #ccc;
+      }
+
+      .cls-3 {
+        stroke-width: 0.443px;
+      }
+
+      .cls-4 {
+        opacity: 0.75;
+      }
+
+      .cls-5 {
+        stroke-width: 0.415px;
+      }
+
+      .cls-6 {
+        stroke-width: 0.519px;
+      }
+
+      .cls-7 {
+        stroke-width: 0.343px;
+      }
+    </style>
+  </defs>
+  <g>
+    <g>
+      <ellipse class="cls-1" cx="218.085" cy="283.183" rx="38.069" ry="88.441"/>
+      <polyline class="cls-2" points="214.744 194.742 435.279 217.42 371.216 248.034 607.626 254.837 299.783 312.664 345.138 326.27 225.943 371.624"/>
+      <ellipse class="cls-3" cx="218.085" cy="283.183" rx="31.434" ry="73.027"/>
+    </g>
+    <g>
+      <g>
+        <ellipse cx="61.997" cy="116.872" rx="29.405" ry="68.313"/>
+        <polyline points="59.416 48.56 229.759 66.076 180.277 89.722 362.881 94.977 125.101 139.643 160.133 150.153 68.066 185.185"/>
+        <ellipse cx="61.997" cy="116.872" rx="24.28" ry="56.407"/>
+      </g>
+      <g class="cls-4">
+        <g>
+          <ellipse class="cls-5" cx="61.997" cy="116.872" rx="29.405" ry="68.313"/>
+          <polyline class="cls-6" points="59.416 48.56 229.759 66.076 180.277 89.722 362.881 94.977 125.101 139.643 160.133 150.153 68.066 185.185"/>
+          <ellipse class="cls-7" cx="61.997" cy="116.872" rx="24.28" ry="56.407"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
