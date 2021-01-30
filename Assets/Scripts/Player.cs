@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
-    [SerializeField] float moveSpeed = 3f;
+    [SerializeField] float moveSpeed = 4f;
     float smoothTime = 0.3f;
     Vector3 velocity = Vector3.zero;
 
@@ -40,7 +40,7 @@ public class Player : MonoBehaviour
         if(SceneManager.GetActiveScene().name=="Space Screen")
         {
             Move();
-            CameraTrack();
+           // CameraTrack();
         }
         if(SceneManager.GetActiveScene().name=="Planet")
         {

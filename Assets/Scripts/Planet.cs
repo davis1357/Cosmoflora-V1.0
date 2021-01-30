@@ -26,12 +26,13 @@ public class Planet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        float startTime = Time.time;
-        float endTime = startTime + lerpTime;
-        FindObjectOfType<Player>().enabled = false;
-        //Camera.main.transform.LookAt(gameObject.transform);
+    //    float startTime = Time.time;
+    //    float endTime = startTime + lerpTime;
+    //    FindObjectOfType<Player>().enabled = false;
+    //    Camera.main.transform.LookAt(gameObject.transform);
     //    Camera.main.orthographicSize = Mathf.Lerp(Camera.main.orthographicSize, zoomIn, 1);
-        StartCoroutine(WaitAndLoad());
+    //    StartCoroutine(WaitAndLoad());
+        
     }
 
     IEnumerator WaitAndLoad()
