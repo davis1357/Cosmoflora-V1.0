@@ -21,26 +21,20 @@ MonoBehaviour:
     m_Address: TreeStructure/prefabs/TreeBase0.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
-    m_MainAsset: {fileID: 3527700568156475255, guid: 7a37e939bb86c794ca47174af1c42016,
-      type: 3}
-    m_TargetAsset: {fileID: 3527700568156475255, guid: 7a37e939bb86c794ca47174af1c42016,
-      type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: 38a7b04ab1f112544b3bbe7945eab10e
     m_Address: TreeStructure/prefabs/TreeBase45.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
-    m_MainAsset: {fileID: 7982299855753681983, guid: 38a7b04ab1f112544b3bbe7945eab10e,
-      type: 3}
-    m_TargetAsset: {fileID: 7982299855753681983, guid: 38a7b04ab1f112544b3bbe7945eab10e,
-      type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: 9081ed28ddee5044798b5f9705dc09a1
     m_Address: TreeStructure/prefabs/TreeBase90.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
-    m_MainAsset: {fileID: 2475278827723314467, guid: 9081ed28ddee5044798b5f9705dc09a1,
-      type: 3}
-    m_TargetAsset: {fileID: 2475278827723314467, guid: 9081ed28ddee5044798b5f9705dc09a1,
-      type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 1807f8995f9ead44abcfbf738dc6c508, type: 2}
   m_SchemaSet:

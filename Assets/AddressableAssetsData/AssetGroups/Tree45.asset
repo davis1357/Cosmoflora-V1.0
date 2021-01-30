@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Tree45
+  m_EditorClassIdentifier: 
+  m_GroupName: Tree45
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 63d7492c5de369e4a874cebdecf62e2c
+  m_SerializeEntries:
+  - m_GUID: aa85d75ced87efb46ac00725ba7e661d
+    m_Address: fortyfive_B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - fortyfive
+    - B
+    m_MainAsset: {fileID: 5434079209956714519, guid: aa85d75ced87efb46ac00725ba7e661d,
+      type: 3}
+    m_TargetAsset: {fileID: 5434079209956714519, guid: aa85d75ced87efb46ac00725ba7e661d,
+      type: 3}
+  - m_GUID: 7a91988c229fe4d45803d760271d4822
+    m_Address: fortyfive_G
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - fortyfive
+    - G
+    m_MainAsset: {fileID: 4451067270767493496, guid: 7a91988c229fe4d45803d760271d4822,
+      type: 3}
+    m_TargetAsset: {fileID: 4451067270767493496, guid: 7a91988c229fe4d45803d760271d4822,
+      type: 3}
+  - m_GUID: e83f75d42f48b0d4495eba813ea3264c
+    m_Address: fortyfive_O
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - fortyfive
+    - O
+    m_MainAsset: {fileID: -450748501226111336, guid: e83f75d42f48b0d4495eba813ea3264c,
+      type: 3}
+    m_TargetAsset: {fileID: -450748501226111336, guid: e83f75d42f48b0d4495eba813ea3264c,
+      type: 3}
+  - m_GUID: b30482ae979ef7c42a0712193c4bd804
+    m_Address: fortyfive_P
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - fortyfive
+    - P
+    m_MainAsset: {fileID: -7216762471364379848, guid: b30482ae979ef7c42a0712193c4bd804,
+      type: 3}
+    m_TargetAsset: {fileID: -7216762471364379848, guid: b30482ae979ef7c42a0712193c4bd804,
+      type: 3}
+  - m_GUID: c06bc4e6b99b3494ba93bb7f01a15e60
+    m_Address: fortyfive_R
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - fortyfive
+    - R
+    m_MainAsset: {fileID: 7647657176632610520, guid: c06bc4e6b99b3494ba93bb7f01a15e60,
+      type: 3}
+    m_TargetAsset: {fileID: 7647657176632610520, guid: c06bc4e6b99b3494ba93bb7f01a15e60,
+      type: 3}
+  - m_GUID: e745f318d93209240b1fdf5b569487b6
+    m_Address: fortyfive_Y
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - fortyfive
+    - Y
+    m_MainAsset: {fileID: 7384311678990668275, guid: e745f318d93209240b1fdf5b569487b6,
+      type: 3}
+    m_TargetAsset: {fileID: 7384311678990668275, guid: e745f318d93209240b1fdf5b569487b6,
+      type: 3}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 1807f8995f9ead44abcfbf738dc6c508, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d75c1e99ef7a2174a93c1104db8cf89f, type: 2}
+    - {fileID: 11400000, guid: ee8525362b9d0b846be208adea533994, type: 2}

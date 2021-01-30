@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: LeafFallen
+  m_EditorClassIdentifier: 
+  m_GroupName: LeafFallen
+  m_Data:
+    m_SerializedData: []
+  m_GUID: fbdb4417fae7b6a47b947ba82a96a1ed
+  m_SerializeEntries:
+  - m_GUID: 759aac8a007efd44e9f25e2304f34280
+    m_Address: fall_B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Leaf/Fall
+    - B
+    - fall
+    m_MainAsset: {fileID: -3034015533529644138, guid: 759aac8a007efd44e9f25e2304f34280,
+      type: 3}
+    m_TargetAsset: {fileID: -3034015533529644138, guid: 759aac8a007efd44e9f25e2304f34280,
+      type: 3}
+  - m_GUID: d1a61e65a0028af44b3017465b9064a6
+    m_Address: fall_G
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - G
+    - Leaf/Fall
+    - fall
+    m_MainAsset: {fileID: 3324052339680665815, guid: d1a61e65a0028af44b3017465b9064a6,
+      type: 3}
+    m_TargetAsset: {fileID: 3324052339680665815, guid: d1a61e65a0028af44b3017465b9064a6,
+      type: 3}
+  - m_GUID: 86bf004412ebabf419d82b3ea12b5906
+    m_Address: fall_O
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Leaf/Fall
+    - O
+    - fall
+    m_MainAsset: {fileID: 6090439307576066570, guid: 86bf004412ebabf419d82b3ea12b5906,
+      type: 3}
+    m_TargetAsset: {fileID: 6090439307576066570, guid: 86bf004412ebabf419d82b3ea12b5906,
+      type: 3}
+  - m_GUID: 439d5117e2f54cc45aaffec722aefb97
+    m_Address: fall_P
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Leaf/Fall
+    - P
+    - fall
+    m_MainAsset: {fileID: 465911373513111357, guid: 439d5117e2f54cc45aaffec722aefb97,
+      type: 3}
+    m_TargetAsset: {fileID: 465911373513111357, guid: 439d5117e2f54cc45aaffec722aefb97,
+      type: 3}
+  - m_GUID: 54d123927f802554286628c3ab00bde2
+    m_Address: fall_R
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Leaf/Fall
+    - R
+    - fall
+    m_MainAsset: {fileID: -6318567632298907416, guid: 54d123927f802554286628c3ab00bde2,
+      type: 3}
+    m_TargetAsset: {fileID: -6318567632298907416, guid: 54d123927f802554286628c3ab00bde2,
+      type: 3}
+  - m_GUID: d4b32a88ce34d7140bc3c6db108de20a
+    m_Address: fall_Y
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Leaf/Fall
+    - Y
+    - fall
+    m_MainAsset: {fileID: -4471886201735464566, guid: d4b32a88ce34d7140bc3c6db108de20a,
+      type: 3}
+    m_TargetAsset: {fileID: -4471886201735464566, guid: d4b32a88ce34d7140bc3c6db108de20a,
+      type: 3}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 1807f8995f9ead44abcfbf738dc6c508, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: bbe3a24a01f73ab4cbe42334dd7c1620, type: 2}
+    - {fileID: 11400000, guid: 4e7b85e93366d14419fd126a16e04b45, type: 2}

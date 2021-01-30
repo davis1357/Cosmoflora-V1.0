@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: LeafString
+  m_EditorClassIdentifier: 
+  m_GroupName: LeafString
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 551e85c4cefc30842b42b97cf12ded43
+  m_SerializeEntries:
+  - m_GUID: 02395199725a7c240b0a1a6b321c5062
+    m_Address: string_B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Leaf/String
+    - B
+    - stringy
+    m_MainAsset: {fileID: 71663921014678146, guid: 02395199725a7c240b0a1a6b321c5062,
+      type: 3}
+    m_TargetAsset: {fileID: 71663921014678146, guid: 02395199725a7c240b0a1a6b321c5062,
+      type: 3}
+  - m_GUID: 924c05d9f7a79cc4687c82946a362d86
+    m_Address: string_G
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Leaf/String
+    - G
+    - stringy
+    m_MainAsset: {fileID: 7450751061515946736, guid: 924c05d9f7a79cc4687c82946a362d86,
+      type: 3}
+    m_TargetAsset: {fileID: 7450751061515946736, guid: 924c05d9f7a79cc4687c82946a362d86,
+      type: 3}
+  - m_GUID: d3e6f5640d4e3f24b951b16a9f2c6bf0
+    m_Address: string_O
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Leaf/String
+    - O
+    - stringy
+    m_MainAsset: {fileID: -2931114099002600085, guid: d3e6f5640d4e3f24b951b16a9f2c6bf0,
+      type: 3}
+    m_TargetAsset: {fileID: -2931114099002600085, guid: d3e6f5640d4e3f24b951b16a9f2c6bf0,
+      type: 3}
+  - m_GUID: 607e7aa7bb8132848ac5d00ce59d0809
+    m_Address: string_P
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Leaf/String
+    - P
+    - stringy
+    m_MainAsset: {fileID: -1382958572221434530, guid: 607e7aa7bb8132848ac5d00ce59d0809,
+      type: 3}
+    m_TargetAsset: {fileID: -1382958572221434530, guid: 607e7aa7bb8132848ac5d00ce59d0809,
+      type: 3}
+  - m_GUID: 82ab3705c4915ae4b88c0eaa3a1a6c13
+    m_Address: string_R
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Leaf/String
+    - R
+    - stringy
+    m_MainAsset: {fileID: 2207156192207142850, guid: 82ab3705c4915ae4b88c0eaa3a1a6c13,
+      type: 3}
+    m_TargetAsset: {fileID: 2207156192207142850, guid: 82ab3705c4915ae4b88c0eaa3a1a6c13,
+      type: 3}
+  - m_GUID: 4bd6116773f95b84bacfe32b8b595979
+    m_Address: string_Y
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Leaf/String
+    - Y
+    - stringy
+    m_MainAsset: {fileID: 2297416324755649740, guid: 4bd6116773f95b84bacfe32b8b595979,
+      type: 3}
+    m_TargetAsset: {fileID: 2297416324755649740, guid: 4bd6116773f95b84bacfe32b8b595979,
+      type: 3}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 1807f8995f9ead44abcfbf738dc6c508, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: fd5694bf1cdd2a24aadd6160d4dc70f5, type: 2}
+    - {fileID: 11400000, guid: c7e0f891974bb82419eabe99ccffdea5, type: 2}
