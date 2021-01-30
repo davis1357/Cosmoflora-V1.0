@@ -18,7 +18,7 @@ public class Leaf : MonoBehaviour
         
     }
 
-    public void SetLeaf(GameObject parentLeaf){
+    internal void SetLeaf(GameObject parentLeaf){
         myRenderer.sprite = parentLeaf.GetComponent<SpriteRenderer>().sprite;
         
         SpinMe(Random.Range(0f, 360f));
