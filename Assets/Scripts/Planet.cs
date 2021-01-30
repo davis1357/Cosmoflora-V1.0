@@ -10,6 +10,19 @@ public class Planet : MonoBehaviour
     float waitTime = 1f;
     float t = 0f;
     float lerpTime = 0.5f;
+    public PlanetConfig planetConfig;
+
+    private void Start()
+    {
+        planetConfig.SetAnimals();
+        planetConfig.SetAtmosphere();
+        planetConfig.SetBackground();
+        planetConfig.SetFlora();
+        planetConfig.SetTerrain();
+
+        GetComponentInChildren<Atmosphere>().SetAtmosphere(planetConfig.GetAtmosphere());
+        GetComponentInChildren<Core>().SetCore(planetConfig.GetTerrain());
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

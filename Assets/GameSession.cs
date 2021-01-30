@@ -28,12 +28,4 @@ public class GameSession : MonoBehaviour
             DontDestroyOnLoad(gameObject);
         }
     }
-
-    private void Start()
-    {
-        foreach (Transform child in planets.transform)
-        {
-            planetList.Add(child.transform);
-        }
-    }
 }
