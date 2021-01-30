@@ -12,8 +12,8 @@ ScriptedImporter:
   texturedSpriteMeshType: 0
   svgPixelsPerUnit: 100
   gradientResolution: 64
-  alignment: 0
-  customPivot: {x: 0, y: 0}
+  alignment: 9
+  customPivot: {x: 0.1, y: 0.9}
   generatePhysicsShape: 0
   viewportOptions: 0
   preserveViewport: 0
@@ -39,17 +39,17 @@ ScriptedImporter:
   spriteData:
     TessellationDetail: 0
     SpriteRect:
-      name: 
+      name: fall_PSprite
       originalName: 
-      pivot: {x: 0, y: 0}
-      alignment: 0
+      pivot: {x: 0.1, y: 0.9}
+      alignment: 9
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
+        width: 107
+        height: 168
       spriteID: d45f4e9e3be852547b44557b674d1a61
       internalID: 0
     PhysicsOutlines: []

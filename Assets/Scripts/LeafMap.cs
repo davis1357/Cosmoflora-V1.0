@@ -52,8 +52,9 @@ public class LeafMap : MonoBehaviour
         SpriteRenderer r;
         foreach (Leaf l in leaves){
             //Debug.Log($"leaf is {l.name} in {l.transform.localPosition.x}, {l.transform.localPosition.y}");
-            r = l.GetComponent<SpriteRenderer>();
+            r = l.GetComponentInChildren<SpriteRenderer>();
             r.sprite = dict[clr];
+            r.color = new Color(r.color.r, r.color.g, r.color.b, 0.9f);
             r.enabled = true;
         }
         this.enabled = true;

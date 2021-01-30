@@ -18,7 +18,7 @@ public class Leaf : MonoBehaviour
     {
         myRenderer = this.GetComponent<SpriteRenderer>();
         howDoIGrow = ScaleStrat.shrinkacsend;
-        howDoISpin = SpinStrat.threequart;
+        howDoISpin = SpinStrat.tilted;
     }
 
     private void Start() {
