@@ -99,7 +99,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 4
-  allPlanets: {fileID: 0}
 --- !u!1 &8229906500101559924
 GameObject:
   m_ObjectHideFlags: 0
@@ -194,6 +193,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a780ceb2fb9449448b5469153f945fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fadeSpeed: 0.1
 --- !u!1 &8812856400852430544
 GameObject:
   m_ObjectHideFlags: 0
@@ -288,3 +288,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0155fbc47421c9741939fe8e917b23c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fadeSpeed: 0.1

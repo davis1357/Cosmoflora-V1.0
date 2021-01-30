@@ -32,7 +32,7 @@ public class GameSession : MonoBehaviour
             
         }
         else
-        {
+        {  
             for (int i = 0; i < allPlanets.Length; i++)
             {
                 allPlanets[i].gameObject.SetActive(false);
