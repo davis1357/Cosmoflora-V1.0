@@ -11,9 +11,9 @@ ScriptedImporter:
   svgType: 0
   texturedSpriteMeshType: 0
   svgPixelsPerUnit: 100
-  gradientResolution: 64
-  alignment: 0
-  customPivot: {x: 0, y: 0}
+  gradientResolution: 128
+  alignment: 7
+  customPivot: {x: 0.5, y: 0}
   generatePhysicsShape: 0
   viewportOptions: 0
   preserveViewport: 0
@@ -21,8 +21,8 @@ ScriptedImporter:
   predefinedResolutionIndex: 1
   targetResolution: 1080
   resolutionMultiplier: 1
-  stepDistance: 10
-  samplingStepDistance: 100
+  stepDistance: 70
+  samplingStepDistance: 200
   maxCordDeviationEnabled: 0
   maxCordDeviation: 1
   maxTangentAngleEnabled: 0
@@ -39,17 +39,17 @@ ScriptedImporter:
   spriteData:
     TessellationDetail: 0
     SpriteRect:
-      name: 
+      name: 0_BSprite
       originalName: 
-      pivot: {x: 0, y: 0}
-      alignment: 0
+      pivot: {x: 0.5, y: 0}
+      alignment: 7
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
+        width: 89
+        height: 546
       spriteID: 3d9a1e6d94deeea48b09273ab0740ab1
       internalID: 0
     PhysicsOutlines: []
