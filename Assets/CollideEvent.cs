@@ -10,18 +10,18 @@ public class CollideEvent : MonoBehaviour
     // float padding = 2f;
     bool trigger = false;
     float padding = 1f;
-    float waitTime = 10f;
 
     private void Update()
     {
-        if(trigger)
+        if (trigger)
         {
             float xTarget = Camera.main.ViewportToWorldPoint(new Vector3(0, 0, 0)).x + padding;
             float yTarget = Camera.main.ViewportToWorldPoint(new Vector3(0, 1, 0)).y - padding;
             Vector3 destination = new Vector3(xTarget, yTarget, 0);
             FindObjectOfType<Player>().gameObject.transform.position = Vector2.MoveTowards(FindObjectOfType<Player>().gameObject.transform.position, destination, speed * Time.deltaTime);
-            if(FindObjectOfType<Player>().gameObject.transform.position==destination)
+            if (FindObjectOfType<Player>().gameObject.transform.position == destination)
             {
+                FindObjectOfType<GameSession>().isSpace = false;
                 trigger = false;
             }
         }
